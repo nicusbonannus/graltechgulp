@@ -91,7 +91,7 @@
   <ItemGroup>
     <Content Include="Content\CarpetaCualquiera\Estilo3.css" />
     <Content Include="Content\Estilo1.css" />
-    <Content Include="Content\Estilo2.css" />
+    <None Include="Content\Estilo2.scss" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="gulpfile.js" />
