@@ -1,5 +1,5 @@
 ﻿function Sumar() {
-    //Este es un comentario
+    //Este es un comentario modificado
     var resultado = HacerSuma($("#primerNumero").val(),$("#segundoNumero").val());
 
     //var objetoQueNoSeUsa = new ObjectoViejo();
