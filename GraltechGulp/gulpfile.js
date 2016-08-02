@@ -4,7 +4,8 @@ Click here to learn more. http://go.microsoft.com/fwlink/?LinkId=518007
 */
 
 var gulp = require('gulp'),
-     git = require('gulp-git');
+     git = require('gulp-git'),
+    browserSync = require('browser-sync').create();
 
 gulp.task('default', function () {
     console.log("Bonsoir Elliot");
@@ -16,3 +17,10 @@ gulp.task('gitpull', function () {
     });
 });
 
+
+/*Tarea para recargar el browser cada vez que modifica algun archivo*/
+gulp.task('reloadBrowser', ['gitpull'], function () {
+    browserSync.reload({
+        stream: true
+    })
+});
