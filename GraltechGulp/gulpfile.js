@@ -8,7 +8,7 @@ var gulp = require('gulp'),
     browserSync = require('browser-sync').create();
 
 gulp.task('default', function () {
-    console.log("Bonsoir Elliot");
+    console.log("https://www.youtube.com/channel/UC1DIYVPITelr6k_ahsblU1A");
 });
 
 gulp.task('gitpull', function () {
