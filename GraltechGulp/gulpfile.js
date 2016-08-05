@@ -38,6 +38,7 @@ gulp.task('reloadBrowser', ['gitpull'], function () {
 
 gulp.task('minimize', function () {
     gulp.src('Content/**/*.css')
+    //.pipe(sass())
     .pipe(concat('miStyle.css'))
     .pipe(minimize())
     .pipe(gulp.dest('styles'));
